@@ -1,3 +1,8 @@
-import calculator from "./calc";
+import "./index.scss";
+import Header from "./Header";
 
-calculator(1, 2);
+const root = document.querySelector("#root");
+
+root.append(Header);
+
+console.log(Header);
