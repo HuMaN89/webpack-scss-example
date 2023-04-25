@@ -1,8 +1,3 @@
-import "./index.scss";
-import Header from "./Header";
+import "./index.css";
 
 const root = document.querySelector("#root");
-
-root.append(Header);
-
-console.log(Header);
